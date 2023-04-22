@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: 'Inter', sans-serif;
+  background: rgb(101,101,231);
+  background: linear-gradient(0deg, rgba(101,101,231,1) 28%, rgba(175,103,233,1) 81%);
+}
+.accordion-button:after {
+background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F47C57'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.border{
+  margin: 150px 30px 200px 30px ;
+  border-radius: 10px;
+  background-color: white;
+  padding-bottom: 60px;
+}
+.accordion{
+  padding: 0 20px;
+}
+
+.accordion-item{
+  border:0;
+  border-bottom:1px solid hsl(240, 5%, 91%);
+}
+.LogoImg{
+  position: relative;
+  top: -130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+@media(min-width: 900px) {
+  Body{
+    min-height: 100vh;
+    place-items:center;
+    display: grid;
+  }
+  .LogoImg{
+    width: 110%;
+    position: relative;
+    right: 20px;
+    top: 100px;
+  }
+  h1{
+   margin-top:100px;
+   text-align: left;
+   margin-left: 20px;
+   margin-bottom: 50px;
+  }
+.FAQ {
+  display: flex;
+}
+.accordion-header{
+  width: 100%;
+}
+
+}
